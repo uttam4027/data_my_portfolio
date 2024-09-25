@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uttam Singh - Data Analyst Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --text-color: #333;
+            --bg-color: #f4f4f4;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        
+        header {
+            background-color: var(--primary-color);
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: 3px solid var(--secondary-color);
+        }
+        
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        
+        header ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            overflow: hidden;
+        }
+        
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        
+        header #branding {
+            float: left;
+        }
+        
+        header #branding h1 {
+            margin: 0;
+        }
+        
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        
+        header .highlight, header .current a {
+            color: var(--secondary-color);
+            font-weight: bold;
+        }
+        
+        header a:hover {
+            color: #ffffff;
+            font-weight: bold;
+        }
+        
+        #showcase {
+            min-height: 400px;
+            background: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+            text-align: center;
+            color: #fff;
+            position: relative;
+        }
+        
+        #showcase::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        
+        #showcase .container {
+            position: relative;
+            z-index: 1;
+        }
+        
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        
+        #showcase p {
+            font-size: 20px;
+        }
+        
+        #skills, #experience, #projects, #education {
+            padding: 15px;
+            background: #fff;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        #skills ul, #experience ul, #projects ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        #skills li, #experience li, #projects li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #ffffff;
+            background-color: var(--primary-color);
+            text-align: center;
+        }
+        
+        .button {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        
+        .button:hover {
+            background-color: #2980b9;
+        }
+        
+        .social-icons a {
+            color: #fff;
+            font-size: 24px;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        
+        .social-icons a:hover {
+            color: var(--secondary-color);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Uttam Singh</span> Data Analyst</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Data-Driven Insights & Solutions</h1>
+            <p>Transforming raw data into actionable business intelligence</p>
+            <a href="#contact" class="button">Get In Touch</a>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Data Analysis:</strong> MS SQL Server, Advanced Excel, Python (Pandas, NumPy, Matplotlib)</li>
+                <li><strong>Data Visualization:</strong> Power BI, Excel Charts</li>
+                <li><strong>Machine Learning & AI:</strong> Implementing ML models, Generative AI applications</li>
+                <li><strong>Business Intelligence:</strong> Data Reporting, ETL, Data Modeling</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <h3>MIS Executive - Jewelex India Pvt Ltd</h3>
+                    <p>July 2024 - Present | Mumbai, Maharashtra, India</p>
+                    <ul>
+                        <li>Perform advanced data analysis using MS SQL Server, Excel, Python, and Machine Learning</li>
+                        <li>Implement Generative AI solutions to optimize business processes</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>MIS Intern - CRYOCORP O2 LLP</h3>
+                    <p>May 2024 - July 2024 | Mumbai, Maharashtra, India</p>
+                    <ul>
+                        <li>Streamlined data management processes using Google Sheets and Python</li>
+                        <li>Implemented AI-driven automation solutions to enhance workflow efficiency</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Data Analyst Intern - Accenture (Forage Virtual Internship)</h3>
+                    <p>Dec 2023 - Jan 2024</p>
+                    <ul>
+                        <li>Analyzed 7 datasets to uncover content trends for a social media client</li>
+                        <li>Prepared presentations to communicate key insights to stakeholders</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <h3>Analysis of Unicorn Companies</h3>
+                    <p>Achieved 30% increase in Fintech ROI and $100M funding boost</p>
+                    <a href="https://github.com/uttam4027/unicorn-analysis" class="button">View Project</a>
+                </li>
+                <li>
+                    <h3>Adidas Sales Performance Analysis</h3>
+                    <p>Revealed 294.32% increase in total sales from 2020 to 2021</p>
+                    <a href="https://github.com/uttam4027/adidas-sales-analysis" class="button">View Project</a>
+                </li>
+                <li>
+                    <h3>Atliq Hardware Analysis</h3>
+                    <p>Identified 36.33% increase in unique products in APAC markets</p>
+                    <a href="https://github.com/uttam4027/atliq-hardware-analysis" class="button">View Project</a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <h3>Bachelor of Technology (B.Tech), Electrical & Electronics Engineering</h3>
+            <p>SHRI RAM INSTITUTE OF TECHNOLOGY, India | Jul 2019 - Jun 2023</p>
+            <p>CGPA: 8.0</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Uttam Singh. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/uttamdataanalytics" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/uttam4027" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:uttamsingh4027@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
